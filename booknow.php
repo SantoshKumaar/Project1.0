@@ -25,7 +25,7 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Bookings</a></li>
                 
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Logout</a></li>
               </ul>
             </nav>
           </div>

@@ -24,7 +24,7 @@
         <form class="form-container">
             
         <div class="form-group">
-          <h4 class="text-center font-weight-bold"> Login </h4>
+          <h4 class="text-center font-weight-bold"> Sign Up </h4>
           <label for="InputEmail1">Email Address</label>
            <input type="email" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="Enter email">
         </div>
@@ -36,9 +36,9 @@
           <label for="InputPassword1">Password</label>
           <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
         </div>
-        
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-        
+        <div id="submit">
+        <button type="submit" class="btn"><a href="login1.php">Submit</button>
+</div>
         </form>
       </section>
     </section>

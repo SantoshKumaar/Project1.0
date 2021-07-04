@@ -31,9 +31,9 @@
           <label for="InputPassword1">Password</label>
           <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-        <div class="form-footer">
-          <p> Don't have an account? <a href="#">Sign Up</a></p>
+        <button type="submit" class="btn"><a href="testride.php">Submit</button>
+        <div class="formfooter">
+          <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
           
         </div>
         </form>

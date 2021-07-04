@@ -24,14 +24,14 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Bookings</a></li>
-                <li><a href="#">Contact</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Sign In </button>
+                <li><a href="#">Logout</a></li>
+               <!--  <div class="dropdown">
+                    <button class="dropbtn">Sign In </button> 
                     <div class="dropdown-content">
                       <a href="#">Customer</a>
                       <a href="#">Admin</a>
                   
-                    </div>
+                    </div>-->
                   </div>
               </ul>
             </nav>
