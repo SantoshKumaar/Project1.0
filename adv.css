@@ -1,4 +1,4 @@
-/* global style rules */
+/* global style ruless */
 #wrapper {
     font-family: 'helvetica', 'sans-serif';
 }
@@ -46,13 +46,14 @@ header {
 
 header .flex {
     display: flex;
-    justify-content:center;
-    font-size: 2.5em;
+    justify-content: space-between;
 }
 
 .logo a {
     color: #fff;
     text-transform: uppercase;
+    font-size: 2em; 
+    text-align: center;
 }
 
 .logo a:hover {
@@ -96,19 +97,16 @@ nav ul li a {
 }
 /* end: header styles */
 
-/* start: hero section styles */
+/* start: hero section styles 
 .hero-image {
     position: relative;
-    max-height: 850px;
+    max-height: 1005px;
     overflow: hidden;
     margin-bottom: 4px;
 }
 
 .hero-image img {
     width: 100%;
-    height: 700px;
-    
-    
 }
 
 .hero-marketing-bar {
@@ -130,7 +128,93 @@ nav ul li a {
     margin-bottom: 10px;
 }
 /* end: hero section styles */
-
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+   
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
 /* start: marketing boxes styles */
 .marketing-boxes {
     margin-bottom: 90px;
@@ -143,21 +227,70 @@ nav ul li a {
 .box {
     background-color: #0C3C60;
     padding: 40px;
-    color: #fff;
+    /* color: rgb(255, 255, 255); */
+    color:transparent;
     text-align: center;
+    /* background-image: url("download.png"); */
+    width:100%;
 }
-
+#bmw{
+    background: url(images/download.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+    
+}
+/*#bmw:hover{
+    transition-duration: 2s;
+    background-position-y: top;
+}*/
 .box2 {
     margin: 0 40px;
 }
-
-.box3 {
-    margin: 20px 445px;
-    
+#ducati{
+    background: url(images/ducati1.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+/*#ducati:hover{
+     transition-duration: 2s;
+     background-position-y:center;
+}*/
+#honda{
+    background: url(images/honda1.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#triumph{
+    background: url(images/triumph.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#harley{
+    background: url(images/harley1.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#ktm{
+    background: url(images/ktm.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
 }
 .box h2 {
     margin-bottom: 40px;
-    color: #CBE0EB;
+    /* color: #CBE0EB; */
+    color: transparent;
 }
 
 .box p {
@@ -172,6 +305,7 @@ nav ul li a {
     color: #fff;
     font-size: 1.25em;
 }
+
 /* end: marketing boxes styles */
 
 /* start: about us styles */
@@ -310,13 +444,12 @@ footer ul li {
     .flex {
         display: block;
     }
-
+    
     .box {
         width: 100%;
         margin: 40px 0;
         box-sizing: border-box;
     }
-
     .map {
         width: 90%;
         height: 100px;
