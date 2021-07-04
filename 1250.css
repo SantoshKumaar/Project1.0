@@ -46,8 +46,8 @@ header {
 
 header .flex {
     display: flex;
-    justify-content:center;
-    font-size: 2.5em;
+    justify-content:space-between;
+    font-size: 1.5em;
 }
 
 .logo a {

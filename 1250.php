@@ -15,7 +15,7 @@
                <div class="logo">
                  <a href="#">The Motorrad <span>Company</span></a>
                </div>
-               <!--  <nav>
+                 <nav>
                  <button id="nav-toggle" class="hamburger-menu">
                    <span class="strip"></span>
                    <span class="strip"></span>
@@ -28,7 +28,7 @@
                    <li><a href="#">Clients</a></li>
                    <li><a href="#">Contact</a></li>
                  </ul>
-               </nav>-->
+               </nav>
              </div>
            </header>
          

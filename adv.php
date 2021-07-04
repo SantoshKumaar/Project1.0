@@ -119,13 +119,13 @@
                   <div class="box box2" id="ducati">
                     <h2>Ducati</h2>
                     <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                    <button>Know More</button>
+                    <button><a href="multistrada.php">Know More</button>
                   </div>
                   
                   <div class="box" id="honda">
                     <h2>Honda</h2>
                     <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                    <button>Know More</button>
+                    <button><a href="africatwin.php">Know More</button>
                   </div>
                 </div>
                 </section>
@@ -134,19 +134,19 @@
                     <div class="box" id="triumph">
                       <h2>Triumph</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.Lorem Ipsum is not simply random text.</p>
-                      <button>Know More</button>
+                      <button><a href="tiger.php">Know More</button>
                     </div>
                     
                     <div class="box box2" id="harley">
                       <h2>Harley</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.mply random text.</p>
-                      <button>Know More</button>
+                      <button><a href="panamerica.php">Know More</button>
                     </div>
                     
                     <div class="box" id="ktm">
                       <h2>KTM</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.Lorem Ipsum is not simply random text.</p>
-                      <button>Know More</button>
+                      <button><a href="1290.php">Know More</button>
                     </div>
                   </div>
                 </section>

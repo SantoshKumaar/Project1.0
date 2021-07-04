@@ -97,8 +97,8 @@ nav ul li a {
 }
 /* end: header styles */
 
-/* start: hero section styles */
-/*.hero-image {
+/* start: hero section styles 
+.hero-image {
     position: relative;
     max-height: 1005px;
     overflow: hidden;
@@ -140,6 +140,7 @@ nav ul li a {
   /* Hide the images by default */
   .mySlides {
     display: none;
+   
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -226,26 +227,77 @@ nav ul li a {
 .box {
     background-color: #0C3C60;
     padding: 40px;
-    color: #fff;
+    /* color: rgb(255, 255, 255); */
+    color:transparent;
     text-align: center;
+    /* background-image: url("download.png"); */
+    width:100%;
 }
-
+#bmw{
+    
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+    
+}
+/*#bmw:hover{
+    transition-duration: 2s;
+    background-position-y: top;
+}*/
 .box2 {
     margin: 0 40px;
+    color: transparent;
 }
-
-.box3 {
-    margin: 20px 445px;
-    
+#ducati{
+    background: url(images/ducati1.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+/*#ducati:hover{
+     transition-duration: 2s;
+     background-position-y:center;
+}*/
+#honda{
+    background: url(images/honda1.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#yamaha{
+    background: url(images/yamaha.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#suzuki{
+    background: url(images/suzuki.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
+}
+#ktm{
+    background: url(images/kavasaki.png)no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width:100%;
+    height: 100%;
 }
 .box h2 {
     margin-bottom: 40px;
-    color: #CBE0EB;
+    /* color: #CBE0EB; */
+    color: transparent;
 }
 
 .box p {
     line-height: 1.5em;
     margin-bottom: 40px;
+    color: transparent;
 }
 
 .box button {
@@ -255,6 +307,7 @@ nav ul li a {
     color: #fff;
     font-size: 1.25em;
 }
+
 /* end: marketing boxes styles */
 
 /* start: about us styles */
@@ -393,13 +446,12 @@ footer ul li {
     .flex {
         display: block;
     }
-
+    
     .box {
         width: 100%;
         margin: 40px 0;
         box-sizing: border-box;
     }
-
     .map {
         width: 90%;
         height: 100px;
