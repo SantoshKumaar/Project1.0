@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             Ducati Multistrada 1260
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="multistrada.css" rel="stylesheet" type="text/css">

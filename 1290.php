@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             Ktm 1290 Adventure
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="1290.css" rel="stylesheet" type="text/css">

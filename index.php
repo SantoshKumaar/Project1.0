@@ -10,19 +10,7 @@
      </head>
      <body>
         <div id="wrapper">
-        
-<?php
-
-session_start();
-if(!isset($_SESSION['logger']))
-{
-    include('inc/logout-navbar.php');
-}
-else {include('inc/login-navbar.php');}
-
-
-?>
-
+        <?php include('inc/navbar.php'); ?>
           
             <main>
               <section class="hero-image">

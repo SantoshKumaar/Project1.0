@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             BMW 1250 GS Adventure
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="1250.css" rel="stylesheet" type="text/css">

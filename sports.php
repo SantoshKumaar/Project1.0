@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             RacerSports
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="adv.css" rel="stylesheet" type="text/css">
@@ -94,20 +94,20 @@
                   <div class="box" id="bmw">
                     <h2>BMW</h2>
                     <p><img src="images/download.png"></p>
-                    <button><a href="1250.php">Know More</a></button>
+                    <button><a href="s1000rr.php">Know More</a></button>
                     
                   </div>
                   
                   <div class="box box2" id="ducati">
                     <h2>Ducati</h2>
                     <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                    <button><a href="multistrada.php">Know More</button>
+                    <button><a href="v4.php">Know More</button>
                   </div>
                   
                   <div class="box" id="honda">
                     <h2>Honda</h2>
                     <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                    <button><a href="africatwin.php">Know More</button>
+                    <button><a href="cb1000rr.php">Know More</button>
                   </div>
                 </div>
                 </section>
@@ -116,19 +116,19 @@
                     <div class="box" id="yamaha">
                       <h2>Yamaha</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.Lorem Ipsum is not simply random text.</p>
-                      <button><a href="tiger.php">Know More</button>
+                      <button><a href="r1.php">Know More</button>
                     </div>
                     
                      <div class="box box2" id="suzuki"> 
                       <h2>Suzuki</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.mply random text.</p>
-                      <button><a href="panamerica.php">Know More</button>
+                      <button><a href="hayabusa.php">Know More</button>
                     </div>
                     
-                    <div class="box" id="ktm">
+                    <div class="box" id="kawasaki">
                       <h2>Kavasaki</h2>
                       <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum is not simply random text.Lorem Ipsum is not simply random text.</p>
-                      <button><a href="1290.php">Know More</button>
+                      <button><a href="h2.php">Know More</button>
                     </div>
                   </div>
                 </section>

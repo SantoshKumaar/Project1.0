@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             BMW S1000RR
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="s1000rr.css" rel="stylesheet" type="text/css">

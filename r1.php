@@ -2,10 +2,10 @@
 <html>
     <head>
         <title>
-             Triumph Tiger 1200
+             Yamaha R1
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
-        <link href="tiger.css" rel="stylesheet" type="text/css">
+        <link href="r1.css" rel="stylesheet" type="text/css">
 
     </head>
     <body>
@@ -52,7 +52,7 @@
              </section>-->
              
              <section class="about-us">
-                   <h1>Triumph Tiger 1200</h1>
+                   <h1>THE BMW S 1000 RR</h1>
                    <h3>No Destination is too far</h3>
                    <p>
                     The world is there to be discovered. There’s always something new. The R 1250 GS is the queen of the touring enduro It’s just made for impassable routes, adverse conditions and the most remote destinations. That is why we have further optimized the high standard of touring suitability and comfort. From driver assistance systems, lighting technology and advanced riding modes to a USB socket, the R 1250 GS Adventure offers you everything you need to explore unknown places. And thanks to the powerful boxer engine with BMW ShiftCam, you can reach any destination with ease. Because we know: Your ideas for travelling the world are endless. Just typical #SpiritOfGS.

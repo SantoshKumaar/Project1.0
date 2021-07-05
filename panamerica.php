@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             Harley Davidson PanAmerica
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="panamerica.css" rel="stylesheet" type="text/css">

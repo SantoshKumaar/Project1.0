@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> <head>
     <title>
-         Home Page
+         Test Ride
     </title>
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
     <link href="testride.css" rel="stylesheet" type="text/css">
@@ -9,7 +9,9 @@
 </head>
 <body>
     <div id="wrapper">
+    <!-- Navbar -->
     <?php include('inc/navbar.php'); ?>
+     <!-- Navbar -->
     <section class="about-us">
         <div class="container">
             <form action="/action_page.php">

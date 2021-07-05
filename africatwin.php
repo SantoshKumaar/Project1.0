@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-             Home Page
+             Honda AfricaTwin
         </title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
         <link href="africatwin.css" rel="stylesheet" type="text/css">
