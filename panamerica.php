@@ -10,28 +10,9 @@
     </head>
     <body>
        <div id="wrapper">
-           <header>
-             <div class="flex">
-               <div class="logo">
-                 <a href="#">The Motorrad <span>Company</span></a>
-               </div>
-                 <nav>
-                 <button id="nav-toggle" class="hamburger-menu">
-                   <span class="strip"></span>
-                   <span class="strip"></span>
-                   <span class="strip"></span>
-                 </button>
-                 <ul id="nav-menu-container">
-                   <li><a href="#">About</a></li>
-                   <li><a href="#">Services</a></li>
-                   <li><a href="#">Projects</a></li>
-                   <li><a href="#">Clients</a></li>
-                   <li><a href="#">Contact</a></li>
-                 </ul>
-               </nav>
-             </div>
-           </header>
-         
+           <!-- Navbar -->
+    <?php include('inc/navbar.php'); ?>
+     <!-- Navbar -->
            <main>
              <section class="hero-image">
                <img src="images/logo.jpg" alt="bmw_motorrad_logo" />

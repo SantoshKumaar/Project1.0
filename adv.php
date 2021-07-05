@@ -10,28 +10,9 @@
     </head>
     <body>
         <div id="wrapper">
-            <header>
-              <div class="flex">
-                <div class="logo">
-                  <a href="#">The Motorrad <span> Company</span></a>
-                </div>
-                <nav>
-                  <button id="nav-toggle" class="hamburger-menu">
-                    <span class="strip"></span>
-                    <span class="strip"></span>
-                    <span class="strip"></span>
-                  </button>
-                  <ul id="nav-menu-container">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </header>
-          
+            <!-- Navbar -->
+    <?php include('inc/navbar.php'); ?>
+     <!-- Navbar -->
             <main>
               <section>
                 <div class="container">
