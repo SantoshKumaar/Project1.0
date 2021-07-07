@@ -16,7 +16,7 @@
          
            <main>
              <section class="hero-image">
-               <img src="images/logo.jpg" alt="bmw_motorrad_logo" />
+               <img src="images/1250gsa2.png" alt="bmw_motorrad_logo"/>
                <div class="hero-marketing-bar">
                  
                </div>
@@ -233,10 +233,17 @@
                       <input type="radio" name="test" value="small" checked>
                       <img src="images/1250hp (3).png">
                     </label>
-                    
+                    <label>
+                      <input type="radio" name="test" value="small" checked>
+                      <img src="images/1250gsa1(2).png">
+                    </label>
                     <label>
                       <input type="radio" name="test" value="big">
                       <img src="http://placehold.it/40x60/b0f/fff&text=B">
+                    </label>
+                    <label>
+                      <input type="radio" name="test" value="big">
+                      <img src="images/1250gsa1(2).png">
                     </label>
                     <div class="box">
                       <button><a href="login1.php">Test Ride</a></button>
