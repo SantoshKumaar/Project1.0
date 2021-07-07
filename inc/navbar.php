@@ -16,7 +16,16 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Bookings</a></li>
-                <li><button name= Logger><a href="#">Login</a></button></li>
+                <?php 
+                if(!isset($_SESSION['username']))
+                {
+                  echo "<li><a href='logout.php'>Logout</a></li>";
+                }
+                else{
+                  echo "<li><a href='login1.php'>Login</a></li>";
+                }
+                ?>
+                
                <!--  <div class="dropdown">
                     <button class="dropbtn">Sign In </button> 
                     <div class="dropdown-content">

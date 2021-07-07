@@ -1,6 +1,45 @@
+<?php
+    require("connection.php");
+    require("credentials.php");
+    session_start();
+   
+    
+
+    if(isset($_SESSION['username']))
+    {
+        header("location: logout.php");
+    }
+    if(isset($_POST['logout']))
+    {
+        
+        header("location: logout.php");
+    }
+    if(isset($_POST['signupButton']))
+    {
+      $username=$_POST['username'];
+      $email=$_POST['email'];
+      $password=$_POST['password'];
+      $query="insert into `customers`(username,password,email) values (\"$username\",\"$password\",\"$email\") ;";
+      $res=mysqli_query($connectionObj,$query);
+      
+      if($res)
+      {
+          echo "<script>alert('Member Details Updated!');</script>";
+
+      }
+      else{
+        echo "<script>alert('error');</script>";
+      }
+      echo "<script>window.location.href = \"login.php\";</script>";
+                            
+
+    }
+   
+?>
+
 <html>
 <head>
- 
+    <title>Signup</title>
    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,23 +60,23 @@
     <!-- row and justify-content-center class is used to place the form in center -->
     <section class="row justify-content-center">
       <section class="col-12 col-sm-6 col-md-4">
-        <form class="form-container">
+        <form method="post" class="form-container">
             
         <div class="form-group">
           <h4 class="text-center font-weight-bold"> Sign Up </h4>
           <label for="InputEmail1">Email Address</label>
-           <input type="email" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="Enter email">
+           <input type="email" class="form-control" id="InputEmail1" name="email" aria-describeby="emailHelp" placeholder="Enter email">
         </div>
         <div class="form-group">
           <label for="InputUsername">Username</label>
-          <input type="Username" class="form-control" id="InputUsername" placeholder="Username">
+          <input type="Username" name="username" class="form-control" id="InputUsername" placeholder="Username">
         </div>
         <div class="form-group">
           <label for="InputPassword1">Password</label>
-          <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+          <input type="password" name="password" class="form-control" id="InputPassword1" placeholder="Password">
         </div>
         <div id="submit">
-        <button type="submit" class="btn"><a href="login1.php">Submit</button>
+        <button type="submit" name="signupButton" class="btn"><a href="login1.php">Submit</button>
 </div>
         </form>
       </section>
